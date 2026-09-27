@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets (GitHub 100MB file limit)
+dataset/
+6ab10eb3b23ba_student_resource/
+*.tsv
+*.tsv.gz
+*.zip
+*.tar.gz
+
+# Model weights and artifacts
+models/
+*.pkl
+*.joblib
+*.bin
+
+# Output files and submissions
+output/*.tsv
+submissions/
+logs/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
